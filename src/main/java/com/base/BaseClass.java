@@ -153,7 +153,7 @@ public class BaseClass {
 			//driver = new ChromeDriver();  //Thread change this line changed by below line
 			
 //Code for headless			
-	/*		ChromeOptions options=new ChromeOptions();
+			ChromeOptions options=new ChromeOptions();
 			options.addArguments("--headless=new"); // Run Chrome in headless mode
 			options.addArguments("--disable-gpu"); // Disable GPU for headless mode
 			options.addArguments("--window-size=1920,1080"); // Set window size
@@ -161,9 +161,9 @@ public class BaseClass {
 			options.addArguments("--no-sandbox"); // Required for some CI environments like Jenkins
 			options.addArguments("--disable-dev-shm-usage");
 			driver.set(new ChromeDriver(options));
-			*/
+			
 //--------------------------			
-			driver.set(new ChromeDriver());
+//			driver.set(new ChromeDriver());
 			
 			ExtentManager.registerDriver (getDriver());
 			Logger.info("Chrome driver initialized");

@@ -3,11 +3,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.AutomationHybrid</groupId>
-  <artifactId>AutomationHybrid</artifactId>
+  <groupId>com.AutomationHybridNormal</groupId>
+  <artifactId>AutomationHybridNormal</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>AutomationHybrid</name>
+  <name>AutomationHybridNormal</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -109,16 +109,18 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.13.0</version>
         </plugin>
+        
         <plugin>
 		<artifactId>maven-surefire-plugin</artifactId>
 		<version>3.3.0</version>
 		<configuration>
-		<suiteXmlFiles>
+			<suiteXmlFiles>
 		<!-- Specify the location of your testng.xml file -->
-		<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
-		</suiteXmlFiles>
+				<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+			</suiteXmlFiles>
 		</configuration>
 		</plugin>
+		
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.4.2</version>

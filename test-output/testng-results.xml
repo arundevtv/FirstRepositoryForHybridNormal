@@ -2,24 +2,24 @@
 <testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-16T17:10:40 IST" name="orangehrm" finished-at="2025-07-16T17:11:04 IST" duration-ms="24559">
+  <suite started-at="2025-07-16T20:02:09 IST" name="orangehrm" finished-at="2025-07-16T20:02:29 IST" duration-ms="19356">
     <groups>
     </groups>
-    <test started-at="2025-07-16T17:10:40 IST" name="orangehrm1" finished-at="2025-07-16T17:11:04 IST" duration-ms="24559">
+    <test started-at="2025-07-16T20:02:09 IST" name="orangehrm1" finished-at="2025-07-16T20:02:29 IST" duration-ms="19356">
       <class name="com.Test.LoginPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T17:10:40 IST" name="loadConfig" finished-at="2025-07-16T17:10:40 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T20:02:09 IST" name="loadConfig" finished-at="2025-07-16T20:02:09 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T17:10:40 IST" name="setup" finished-at="2025-07-16T17:10:45 IST" duration-ms="4316" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T20:02:10 IST" name="setup" finished-at="2025-07-16T20:02:14 IST" duration-ms="3735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T17:10:45 IST" name="setupPages" finished-at="2025-07-16T17:10:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T20:02:14 IST" name="setupPages" finished-at="2025-07-16T20:02:14 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="inValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T17:10:45 IST" name="inValidLoginTest" data-provider="inValidLoginData" finished-at="2025-07-16T17:10:48 IST" duration-ms="2822" status="PASS">
+        <test-method signature="inValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T20:02:14 IST" name="inValidLoginTest" data-provider="inValidLoginData" finished-at="2025-07-16T20:02:17 IST" duration-ms="2700" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,19 +35,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T17:10:48 IST" name="teardown" finished-at="2025-07-16T17:10:48 IST" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T20:02:17 IST" name="teardown" finished-at="2025-07-16T20:02:17 IST" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T17:10:48 IST" name="setup" finished-at="2025-07-16T17:10:51 IST" duration-ms="3330" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T20:02:17 IST" name="setup" finished-at="2025-07-16T20:02:20 IST" duration-ms="3216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T17:10:51 IST" name="setupPages" finished-at="2025-07-16T17:10:51 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T20:02:20 IST" name="setupPages" finished-at="2025-07-16T20:02:20 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="verifyValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T17:10:51 IST" name="verifyValidLoginTest" data-provider="validLoginData" finished-at="2025-07-16T17:10:57 IST" duration-ms="5953" status="PASS">
+        <test-method signature="verifyValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T20:02:20 IST" name="verifyValidLoginTest" data-provider="validLoginData" finished-at="2025-07-16T20:02:24 IST" duration-ms="3695" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,21 +63,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidLoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T17:10:57 IST" name="teardown" finished-at="2025-07-16T17:10:58 IST" duration-ms="240" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Test.LoginPageTest@4a11eb84]" started-at="2025-07-16T20:02:24 IST" name="teardown" finished-at="2025-07-16T20:02:24 IST" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.Test.LoginPageTest -->
       <class name="com.Test.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.HomePageTest@4795ded0]" started-at="2025-07-16T17:10:58 IST" name="setup" finished-at="2025-07-16T17:11:03 IST" duration-ms="5220" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.HomePageTest@4795ded0]" started-at="2025-07-16T20:02:24 IST" name="setup" finished-at="2025-07-16T20:02:27 IST" duration-ms="3142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.Test.HomePageTest@4795ded0]" started-at="2025-07-16T17:11:03 IST" name="setupPages" finished-at="2025-07-16T17:11:03 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupPages -->
-        <test-method signature="verifyOrangeHRMLogo(java.lang.String,java.lang.String)[pri:0, instance:com.Test.HomePageTest@4795ded0]" started-at="2025-07-16T17:11:03 IST" name="verifyOrangeHRMLogo" data-provider="validLoginData" finished-at="2025-07-16T17:11:04 IST" duration-ms="1049" status="PASS">
+        <test-method signature="verifyOrangeHRMLogo(java.lang.String,java.lang.String)[pri:0, instance:com.Test.HomePageTest@4795ded0]" started-at="2025-07-16T20:02:27 IST" name="verifyOrangeHRMLogo" data-provider="validLoginData" finished-at="2025-07-16T20:02:29 IST" duration-ms="1504" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,7 +89,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOrangeHRMLogo -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Test.HomePageTest@4795ded0]" started-at="2025-07-16T17:11:04 IST" name="teardown" finished-at="2025-07-16T17:11:04 IST" duration-ms="209" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.Test.HomePageTest@4795ded0]" started-at="2025-07-16T20:02:27 IST" name="setupPages" finished-at="2025-07-16T20:02:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Test.HomePageTest@4795ded0]" started-at="2025-07-16T20:02:29 IST" name="teardown" finished-at="2025-07-16T20:02:29 IST" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
