@@ -4941,3 +4941,52 @@ Session ID: 6c9e89d2b7c64f64e4320037ac23135c
 2025-07-16 14:45:51 [main] INFO  ActionDriver - Applied the border with color green to element: Element with name:user-name
 2025-07-16 14:45:51 [main] INFO  ActionDriver - Applied the border with color red to element: Element with name:user-name
 2025-07-16 14:45:51 [main] INFO  BaseClass - Webdriver instance is closed
+2025-07-16 17:10:40 [main] INFO  BaseClass - Property file loaded
+2025-07-16 17:10:42 [TestNG-tests-1] INFO  BaseClass - Chrome driver initialized
+2025-07-16 17:10:45 [TestNG-tests-1] INFO  BaseClass - Webdriver Initialized and browser launched
+2025-07-16 17:10:45 [TestNG-tests-1] TRACE BaseClass - This is a Trace message
+2025-07-16 17:10:45 [TestNG-tests-1] DEBUG BaseClass - This is a debug message
+2025-07-16 17:10:45 [TestNG-tests-1] WARN  BaseClass - This is a warn message
+2025-07-16 17:10:45 [TestNG-tests-1] INFO  ActionDriver - Webdriver instance created
+2025-07-16 17:10:45 [TestNG-tests-1] INFO  BaseClass - ActionDriver initlialized for thread: 37
+2025-07-16 17:10:45 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with name:user-name
+2025-07-16 17:10:45 [TestNG-tests-1] INFO  ActionDriver - Entered text on: Element with name:user-name--> invalid_user
+2025-07-16 17:10:45 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with name:password
+2025-07-16 17:10:45 [TestNG-tests-1] INFO  ActionDriver - Entered text on: Element with name:password--> secret_invalid
+2025-07-16 17:10:45 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with id:login-button
+2025-07-16 17:10:45 [TestNG-tests-1] INFO  ActionDriver - Clicked an Element--> Element with id:login-button
+2025-07-16 17:10:47 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with text:Epic sadface: Username and password do not match a...
+2025-07-16 17:10:48 [TestNG-tests-1] INFO  ActionDriver - Text are Matching: Epic sadface: Username and password do not match any user in this service equals Epic sadface: Username and password do not match any user in this service
+2025-07-16 17:10:48 [TestNG-tests-1] INFO  BaseClass - Webdriver instance is closed
+2025-07-16 17:10:49 [TestNG-tests-1] INFO  BaseClass - Chrome driver initialized
+2025-07-16 17:10:51 [TestNG-tests-1] INFO  BaseClass - Webdriver Initialized and browser launched
+2025-07-16 17:10:51 [TestNG-tests-1] TRACE BaseClass - This is a Trace message
+2025-07-16 17:10:51 [TestNG-tests-1] DEBUG BaseClass - This is a debug message
+2025-07-16 17:10:51 [TestNG-tests-1] WARN  BaseClass - This is a warn message
+2025-07-16 17:10:51 [TestNG-tests-1] INFO  ActionDriver - Webdriver instance created
+2025-07-16 17:10:51 [TestNG-tests-1] INFO  BaseClass - ActionDriver initlialized for thread: 37
+2025-07-16 17:10:52 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with name:user-name
+2025-07-16 17:10:52 [TestNG-tests-1] INFO  ActionDriver - Entered text on: Element with name:user-name--> standard_user
+2025-07-16 17:10:52 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with name:password
+2025-07-16 17:10:52 [TestNG-tests-1] INFO  ActionDriver - Entered text on: Element with name:password--> secret_sauce
+2025-07-16 17:10:52 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with id:login-button
+2025-07-16 17:10:55 [TestNG-tests-1] INFO  ActionDriver - Clicked an Element--> Element with id:login-button
+2025-07-16 17:10:55 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with text:Products
+2025-07-16 17:10:55 [TestNG-tests-1] INFO  ActionDriver - Element is displayed: Element with text:Products
+2025-07-16 17:10:58 [TestNG-tests-1] INFO  BaseClass - Webdriver instance is closed
+2025-07-16 17:10:59 [TestNG-tests-1] INFO  BaseClass - Chrome driver initialized
+2025-07-16 17:11:03 [TestNG-tests-1] INFO  BaseClass - Webdriver Initialized and browser launched
+2025-07-16 17:11:03 [TestNG-tests-1] TRACE BaseClass - This is a Trace message
+2025-07-16 17:11:03 [TestNG-tests-1] DEBUG BaseClass - This is a debug message
+2025-07-16 17:11:03 [TestNG-tests-1] WARN  BaseClass - This is a warn message
+2025-07-16 17:11:03 [TestNG-tests-1] INFO  ActionDriver - Webdriver instance created
+2025-07-16 17:11:03 [TestNG-tests-1] INFO  BaseClass - ActionDriver initlialized for thread: 37
+2025-07-16 17:11:03 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with name:user-name
+2025-07-16 17:11:03 [TestNG-tests-1] INFO  ActionDriver - Entered text on: Element with name:user-name--> standard_user
+2025-07-16 17:11:03 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with name:password
+2025-07-16 17:11:03 [TestNG-tests-1] INFO  ActionDriver - Entered text on: Element with name:password--> secret_sauce
+2025-07-16 17:11:03 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with id:login-button
+2025-07-16 17:11:04 [TestNG-tests-1] INFO  ActionDriver - Clicked an Element--> Element with id:login-button
+2025-07-16 17:11:04 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with class:app_logo
+2025-07-16 17:11:04 [TestNG-tests-1] INFO  ActionDriver - Element is displayed: Element with class:app_logo
+2025-07-16 17:11:04 [TestNG-tests-1] INFO  BaseClass - Webdriver instance is closed

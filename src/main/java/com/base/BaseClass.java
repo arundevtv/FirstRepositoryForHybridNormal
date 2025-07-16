@@ -33,8 +33,6 @@ public class BaseClass {
 
 	private static ThreadLocal<WebDriver> driver=new ThreadLocal<>();//--Thread change
 	private static ThreadLocal<ActionDriver> actionDriver=new ThreadLocal<>();//--Thread change
-	
-	
 	public static final Logger Logger = LoggerManager.getLogger(BaseClass.class);
 
 	@BeforeSuite

@@ -6,13 +6,23 @@
   </listeners>
   <test thread-count="3" parallel="tests" name="orangehrm1(failed)">
     <classes>
+      <class name="com.Test.HomePageTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="verifyOrangeHRMLogo"/>
+          <include name="setupPages"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Test.HomePageTest -->
       <class name="com.Test.LoginPageTest">
         <methods>
           <include name="setupPages"/>
           <include name="loadConfig"/>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="inValidLoginTest" invocation-numbers="0 0 0"/>
+          <include name="inValidLoginTest"/>
+          <include name="verifyValidLoginTest"/>
         </methods>
       </class> <!-- com.Test.LoginPageTest -->
     </classes>
